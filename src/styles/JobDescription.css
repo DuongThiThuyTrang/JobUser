@@ -1,0 +1,27 @@
+.JobDescription__TitleContainer {
+	margin-bottom: 16px;
+}
+
+.JobDescription__Title {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.58;
+}
+
+.JobDescription__DescriptionContainer {
+	padding-left: 20px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+/*
+.DraftEditorContainer__DraftEditorContainer {}
+
+.DraftEditor-root {}
+
+.DraftEditor-editorContainer {}
+
+.public-DraftEditor-content {} */
+
+.JobDescription__ReadButton {
+	margin-top: 7px;
+}

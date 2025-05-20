@@ -1,0 +1,82 @@
+.Container {
+	position: relative;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px 4em;
+	margin: 90px auto 0;
+	max-width: 1200px;
+}
+
+.CustomStats {
+	min-width: 310px;
+	text-align: left;
+}
+
+.Label {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+div.Label b {
+	color: rgb(236, 39, 43);
+	font-size: 50px;
+}
+
+@media (max-width: 768px) {
+	.Container {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 1024px) {
+	.CustomStats {
+		min-width: auto;
+	}
+}
+
+.StatisticSection {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 40px;
+	padding: 60px 20px;
+	background: linear-gradient(to right, #fdfbfb, #ebedee);
+	border-radius: 16px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+	text-align: center;
+}
+
+.StatItem {
+	background: #fff;
+	padding: 30px 20px;
+	border-radius: 16px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+	flex: 1;
+	min-width: 250px;
+	max-width: 300px;
+	transition: transform 0.3s ease;
+}
+
+.StatItem:hover {
+	transform: translateY(-8px);
+}
+
+.IconWrapper {
+	font-size: 2.5rem;
+	color: #3498db;
+	margin-bottom: 12px;
+}
+
+.StatNumber {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #2c3e50;
+	margin-bottom: 8px;
+}
+
+.StatLabel {
+	font-size: 1rem;
+	color: #555;
+	line-height: 1.5;
+}

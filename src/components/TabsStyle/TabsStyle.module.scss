@@ -1,0 +1,47 @@
+.TabsContainer {
+	position: relative;
+}
+
+.TabsHeader {
+	position: relative;
+
+	& ul::-webkit-scrollbar {
+		display: none;
+		width: 4px;
+		height: 4px;
+	}
+
+	& ul {
+		position: relative;
+		display: flex;
+		font-size: 1em;
+		overflow: hidden;
+		overflow-x: auto;
+		white-space: nowrap;
+		list-style: none;
+		padding-left: 15px;
+		padding-right: 15px;
+
+		& .horizontal-tab {
+			margin: 0 10px;
+		}
+
+		& li {
+			margin: 0 10px;
+			text-transform: uppercase;
+		}
+
+		& li:first-child {
+			margin-left: 0;
+		}
+
+		& li:last-child {
+			margin-right: 0;
+		}
+
+		& svg {
+			width: 15px;
+			height: 15px;
+		}
+	}
+}

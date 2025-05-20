@@ -1,0 +1,21 @@
+.UserMenuContainer {
+	display: flex;
+	align-items: center;
+}
+
+.ProfilePicture {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	cursor: pointer;
+	object-fit: cover;
+}
+
+.DropdownWrapper svg {
+	margin-right: 15px;
+}
+
+.NameHolder {
+	font-weight: 500;
+}
