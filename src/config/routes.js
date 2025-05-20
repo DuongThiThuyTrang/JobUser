@@ -8,8 +8,8 @@ const routes = {
 	blog: "/blog",
 	signUp: "/sign-up",
 	forgotPassword: "/forgot-password",
-	recruitment: "http://localhost:3001/",
-	// recruitment: "https://employers.glints.vn/",
+	recruitment: "https://job-admin-six.vercel.app/",
+
 	resetPassword: "/reset-password",
 	error: "*",
 	// private
